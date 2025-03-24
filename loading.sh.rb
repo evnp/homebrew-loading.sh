@@ -6,7 +6,7 @@ class LoadingSh < Formula
   license "MIT"
 
   def install
-    man1.install "man/loading.sh.1"
+    man1.install "man/loading.1"
     bin.install "loading"
   end
 
