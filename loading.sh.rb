@@ -7,7 +7,7 @@ class LoadingSh < Formula
 
   def install
     man1.install "man/loading.1"
-    bin.install "loading"
+    bin.install "loading.sh" => "loading"
   end
 
   test do
